@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--SecondryBackgraoundColor);;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

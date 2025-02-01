@@ -1,0 +1,10 @@
+header>h2
+{
+    font-size: 28px;
+    color: var(--TextColor);
+}
+.Icon
+{
+    color: var(--SecondryColor);
+    font-size: 32px;
+}

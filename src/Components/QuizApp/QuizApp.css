@@ -1,0 +1,56 @@
+.Quiz
+{
+    width: 600px;
+    height: auto;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.box
+{
+    width: 600px;
+    margin: 5px 0px;
+    padding: 0;
+    height: auto;
+}
+.Question h1
+{
+    text-align: left;
+    font-size: 20px;
+    color: var(--TextColor);
+}
+.Answers
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Answer
+{
+    cursor: pointer;
+    width: 40%;
+    height: auto;
+    padding: 0 20px;
+    background-color: var(--SecondryColor);
+    color: var(--BorderColor);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0px;
+    border-radius: 16px;
+    text-align: center;
+}
+.Answer:hover
+{
+    background-color: var(--PrimaryColor);
+}
+.Score
+{
+    width: 550px;
+    font-size: 32px;
+    color:  var(--PrimaryColor);
+}

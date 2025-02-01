@@ -1,0 +1,60 @@
+
+.Form
+{
+    width: 600px;
+    height: auto;
+    border-radius: 32px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.txt
+{
+    width: 500px;
+    height: 70px;
+    padding: 0 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    outline: none;
+    border: 2px solid var(--BorderColor);
+    text-align: left;
+    color: var(--TextColor);
+    background-color: var(--BorderColor);
+    border-radius: 16px;
+}
+.btn
+{
+    width: 500px;
+    height: 70px;
+    border-radius: 16px;
+    margin-top: 30px;
+    background-color: var(--PrimaryColor);
+    color: #F5F5F5;
+    font-size: 26px;
+    border: none;
+}
+.btn:hover
+{
+    background-color: var(--AccentColor);
+}
+.ErrorMessage
+{
+    width: 500px !important;
+    color: var(--ErrorColor);
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+}
+.ValidText
+{
+    width: 600;
+    height: 50;
+    margin: 0 20px;
+    color: var(--AccentColor);
+    font-size: 36px;
+    text-align: center;
+}

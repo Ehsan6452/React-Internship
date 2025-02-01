@@ -1,0 +1,92 @@
+.Library
+{
+    width: 600px;
+    height: auto;
+    padding: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Add
+{
+    width: 500px;
+    height: 50px;
+    margin: 0px 15px;
+    font-size: 26px;
+    background-color: var(--PrimaryColor);
+    color: var(--BorderColor);
+    font-weight: 700;
+    border-radius: 16px;
+    border: none;
+}
+.Add:hover
+{
+    background-color: var(--AccentColor);
+}
+.ErrorSpace
+{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;    
+}
+.ErrorSpace > span
+{
+    width: 400px;
+    color: var(--ErrorColor);
+    font-size: 12px;
+    text-align: left;
+
+}
+.List
+{
+    width: 600px;
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.List>tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start; 
+    margin: 10px 0px;
+}
+thead>tr
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--SecondryColor);
+    border-radius: 16px;
+
+}
+tbody>tr
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: var(--PrimaryColor);
+    border-radius: 16px;
+
+}
+.List th{
+    width: 140px;
+    color: var(--BorderColor);
+    font-size: 22px;
+}
+.List td
+{
+
+    width:140px;
+    color: var(--BorderColor);
+    font-size: 22px;
+}
