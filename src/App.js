@@ -5,8 +5,9 @@ import Form from './Components/FormValidation/Form';
 import Quiz from './Components/QuizApp/QuizApp';
 import Ticket from './Components/Ticket/Ticket';
 import Library from './Components/Library/Library';
+import TodoList from './Components/TodoList/TodoList';
 
-const App = () => {
+export default function App (){
   const [projectIsSelected, setProjectIsSelected] = useState(false);
   const [selectedProject, setSelectedProject] = useState('');
 
@@ -42,6 +43,9 @@ const App = () => {
             <div id="Library" className="project" onClick={showProject}>
               <h2>Library</h2>
             </div>
+            <div id="TodoList" className="project" onClick={showProject}>
+              <h2>TodoList</h2>
+            </div>
           </div>
         </div>
       )}
@@ -49,8 +53,7 @@ const App = () => {
       {projectIsSelected && selectedProject === "QuizApp" && <Quiz />}
       {projectIsSelected && selectedProject === "Ticket" && <Ticket />}
       {projectIsSelected && selectedProject === "Library" && <Library />}
+      {projectIsSelected && selectedProject === "TodoList" && <TodoList />}
     </section>
   );
-};
-
-export default App;
+}
