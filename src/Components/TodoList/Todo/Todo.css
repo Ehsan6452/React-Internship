@@ -1,0 +1,32 @@
+.Todo
+{
+    width: auto;
+    padding: 5px 10px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid var(--TextColor);
+    border-radius: 16px;
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Todo h2
+{
+    margin: 0;
+}
+.btnComplete , .btnDelete
+{
+    cursor: pointer;
+    background: transparent;
+    font-size: 26px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.Completed 
+{
+    text-decoration:line-through;
+    color: var(--SecondryTextColor);
+}

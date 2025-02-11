@@ -1,0 +1,51 @@
+form
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+form input
+{
+    width:250px;
+    height: 50px;
+    padding: 0px 15px;
+    font-size: 18px;
+    background-color: var(--BorderColor);
+    border: 2px solid var(--SecondryTextColor) ;
+    border-radius: 16px;
+    outline: none;
+    color: var(--TextColor);
+}
+
+form select
+{
+    background-color: var(--BorderColor);
+    color: var(--TextColor);
+    border: 2px solid var(--SecondryTextColor);
+    border-radius: 16px;
+    outline: none;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    padding: 0px 10px;
+}
+
+form button
+{
+    width: 100px;
+    height: 50px;
+    border: 2px solid var(--SecondryTextColor);
+    background-color: var(--SecondryTextColor);
+    color: var(--BorderColor);
+    border-radius: 16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+form button:hover
+{
+    background-color: var(--PrimaryColor);
+    border: none;
+}
