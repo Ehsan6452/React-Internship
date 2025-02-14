@@ -6,6 +6,7 @@ import Quiz from './Components/QuizApp/QuizApp';
 import Ticket from './Components/Ticket/Ticket';
 import Library from './Components/Library/Library';
 import TodoList from './Components/TodoList/TodoList';
+import CurrencyConersion from './Components/CurrencyConersion/CurrencyConersion';
 
 export default function App (){
   const [projectIsSelected, setProjectIsSelected] = useState(false);
@@ -46,6 +47,9 @@ export default function App (){
             <div id="TodoList" className="project" onClick={showProject}>
               <h2>TodoList</h2>
             </div>
+            <div id="CurrencyConersion" className="project" onClick={showProject}>
+              <h2>CurrencyConersion</h2>
+            </div>
           </div>
         </div>
       )}
@@ -54,6 +58,7 @@ export default function App (){
       {projectIsSelected && selectedProject === "Ticket" && <Ticket />}
       {projectIsSelected && selectedProject === "Library" && <Library />}
       {projectIsSelected && selectedProject === "TodoList" && <TodoList />}
+      {projectIsSelected && selectedProject === "CurrencyConersion" && <CurrencyConersion />}
     </section>
   );
 }
