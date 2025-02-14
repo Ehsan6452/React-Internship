@@ -38,3 +38,13 @@
 {
     background-color: transparent;
 }
+.apiLoad
+{
+   font-size: 26px; 
+   color: var(--PrimaryColor);
+}
+.apiError
+{
+    font-size: 26px; 
+    color: var(--ErrorColor);
+}
