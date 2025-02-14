@@ -7,6 +7,7 @@ import Ticket from './Components/Ticket/Ticket';
 import Library from './Components/Library/Library';
 import TodoList from './Components/TodoList/TodoList';
 import CurrencyConersion from './Components/CurrencyConersion/CurrencyConersion';
+import MoviePlatform from './Components/MoviePlatform/MoviePlatform';
 
 export default function App (){
   const [projectIsSelected, setProjectIsSelected] = useState(false);
@@ -48,7 +49,10 @@ export default function App (){
               <h2>TodoList</h2>
             </div>
             <div id="CurrencyConersion" className="project" onClick={showProject}>
-              <h2>CurrencyConersion</h2>
+              <h2>Currency Conersion</h2>
+            </div>
+            <div id="MoviePlatform" className="project" onClick={showProject}>
+              <h2>Movie Platform</h2>
             </div>
           </div>
         </div>
@@ -59,6 +63,7 @@ export default function App (){
       {projectIsSelected && selectedProject === "Library" && <Library />}
       {projectIsSelected && selectedProject === "TodoList" && <TodoList />}
       {projectIsSelected && selectedProject === "CurrencyConersion" && <CurrencyConersion />}
+      {projectIsSelected && selectedProject === "MoviePlatform" && <MoviePlatform />}
     </section>
   );
 }
