@@ -1,0 +1,137 @@
+
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    background-color: var(--BackgroundColor);
+    border-radius: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .search-bar input {
+    width: 450px;
+    height: 50px;
+    padding: 10px 15px;
+    background-color: var(--BorderColor);
+    color: var(--TextColor);
+    font-size: 18px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+  }
+
+  .movie-details {
+    background-color: var(--BackgroundColor);
+    padding: 0px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .movie-details > div
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .movie-details img {
+    max-height: 200px;
+    width: auto;
+    border-radius: 16px;
+    border:none ;
+  }
+  
+  .movie-details p
+  {
+    font-size: 20px;
+  }
+  .movie-list {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: var(--BackgroundColor);
+  }
+  
+  .movie-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space:nowrap;
+  }
+  
+  .movie-list li {
+    background-color: var(--BorderColor);
+    display: flex;
+    width: 150px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .movie-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .movie-list img {
+    width: 70px;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .movie-list h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .movie-list p {
+    margin: 0;
+    color: #666;
+  }
+  .no-results {
+    background-color: var(--BackgroundColor);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--TextColor);
+  }
